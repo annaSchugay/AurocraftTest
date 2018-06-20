@@ -1,0 +1,134 @@
+@mixin breakpoint($point) {
+
+    @if $point == till-extra-large {
+        @media (max-width: 1926px) {
+            @content;
+        }
+    }
+
+    @if $point == extra-large-up {
+        @media (min-width: 1600px) {
+            @content;
+        }
+    }
+
+    @if $point == extra-large {
+        @media (max-width: 1600px) {
+            @content;
+        }
+    }
+
+    @if $point == large {
+        @media (min-width: 1200px) {
+            @content;
+        }
+    }
+
+    @if $point == horizontal-iPad-up {
+        @media (min-width: 1025px) {
+            @content;
+        }
+    }
+
+    @if $point == horizontal-iPad {
+        @media (max-width: 1024px) {
+            @content;
+        }
+    }
+
+    @if $point == medium-large {
+        @media (max-width: 1200px) {
+            @content;
+        }
+    }
+
+    @else if $point == medium-middle {
+        @media (min-width: 769px) and (max-width: 1600px) {
+            @content;
+        }
+    }
+
+    @else if $point == medium {
+        @media (min-width: 992px) and (max-width: 1199px) {
+            @content;
+        }
+    }
+
+    @else if $point == small-medium {
+        @media (min-width: 992px) {
+            @content;
+        }
+    }
+
+    @else if $point == small {
+        @media (min-width: 767px) and (max-width: 991px) {
+            @content;
+        }
+    }
+
+    @else if $point == middle-small {
+        @media (max-width: 992px) {
+            @content;
+        }
+    }
+
+    @else if $point == horizontal-mobile {
+        @media (min-width: 538px) and (max-width: 736px) {
+            @content;
+        }
+    }
+
+    @else if $point == extra-small-up {
+        @media (min-width: 769px) {
+            @content;
+        }
+    }
+
+    @else if $point == extra-small-up-1 {
+        @media (min-width: 767px) {
+            @content;
+        }
+    }
+
+    @else if $point == extra-small {
+        @media (max-width: 768px) {
+            @content;
+        }
+    }
+
+    @else if $point == extra-small-mobile {
+        @media (max-width: 757px) {
+            @content;
+        }
+    }
+
+    @else if $point == small-tablet-portrait-up {
+        @media (min-width: 561px) {
+            @content;
+        }
+    }
+
+    @else if $point == small-tablet-portrait {
+        @media (max-width: 560px) {
+            @content;
+        }
+    }
+
+    @else if $point == mobile-landscape {
+        @media (max-width: 480px) {
+            @content;
+        }
+    }
+
+    @else if $point == mobile {
+        @media (max-width: 380px) {
+            @content;
+        }
+    }
+
+    @else if $point == narrowphone {
+        @media (max-width: 320px) {
+            @content;
+        }
+    }
+}
