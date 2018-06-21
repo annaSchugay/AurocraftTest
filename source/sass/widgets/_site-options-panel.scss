@@ -1,0 +1,18 @@
+.site-options-panel {
+  display: flex;
+  padding: 55px 40px 52px 35px;
+  align-items: center;
+  justify-content: space-between;
+  .slider-buttons {
+    display: flex;
+    .slide-number {
+      margin: 0 14px;
+      color: #fff;
+      font-weight: bold;
+      line-height: 26px;
+      .active {
+        font-size: 26px;
+      }
+    }
+  }
+}

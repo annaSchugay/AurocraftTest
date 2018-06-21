@@ -3,6 +3,8 @@ aside {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  flex-shrink: 1;
+  flex-grow: 0;
   width: 327px;
   height: 100vh;
   padding: 55px 0;

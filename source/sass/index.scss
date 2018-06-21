@@ -4,8 +4,14 @@
 @import "variables";
 @import "base";
 @import "components/label-menu";
+@import "components/arrow-to-left";
+@import "components/arrow-to-right";
 @import "widgets/logo";
-@import "widgets/aside";
+@import "widgets/file-loader";
 @import "widgets/nav";
 @import "widgets/additional-information";
+@import "widgets/theme-switcher";
+@import "widgets/aside";
+@import "widgets/main";
 @import "widgets/footer";
+@import "widgets/site-options-panel";

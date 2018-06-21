@@ -1,0 +1,29 @@
+.theme-switcher {
+  .titles {
+    font-size: 12px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .icons {
+    display: flex;
+    margin-top: 5px;
+    li {
+      display: flex;
+      width: 33px;
+      height: 33px;
+      border: 1px solid rgba(182, 192, 212, 0.33);
+      cursor: pointer;
+      &.active {
+        border: 1px solid #fff;
+      }
+
+      img {
+        margin: auto;
+      }
+    }
+  }
+}
