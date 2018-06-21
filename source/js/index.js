@@ -12,8 +12,15 @@ const slideButtonRight = slidesButtons.querySelector('.arrow-to-right');
 const slideNumber = document.querySelector('.slide-number');
 const activeSlide = slideNumber.querySelector('.active');
 const totalCountSlides = slideNumber.querySelector('.total-count-slides');
-
+var count = 0;
 var slideIndex = 1;
+
+for (var i = 0; i < allSlides.length; i++) {
+  count += i;
+}
+
+totalCountSlides.innerHTML = count;
+
 showDivs(slideIndex);
 
 function plusDivs(n) {
@@ -40,4 +47,3 @@ slideButtonRight.addEventListener('click', function () {
   plusDivs(+1);
 });
 
-console.log();
