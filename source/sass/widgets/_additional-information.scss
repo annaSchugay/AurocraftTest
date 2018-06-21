@@ -1,0 +1,29 @@
+.additional-information {
+  position: relative;
+  margin-top: 60px;
+  padding-bottom: 20px;
+  li {
+    margin-top: 6px;
+    opacity: 0.41;
+    font-size: 14px;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: 2px;
+    color: #ffffff;
+    transition: all 0.1s;
+    cursor: pointer;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 37.8px;
+    height: 1px;
+    opacity: 0.41;
+    background-color: #fff;
+  }
+}
