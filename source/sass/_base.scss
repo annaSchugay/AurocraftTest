@@ -1,0 +1,15 @@
+body {
+  font-family: $font-family-regular;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
