@@ -1,4 +1,9 @@
 aside {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,7 +11,7 @@ aside {
   flex-shrink: 1;
   flex-grow: 0;
   width: 327px;
-  height: 100vh;
+  box-sizing: border-box;
   padding: 55px 0;
   background-color: #131216;
 }

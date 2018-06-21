@@ -6,6 +6,10 @@ body {
   .container {
     display: flex;
     justify-content: space-between;
+
+    @include breakpoint(extra-small) {
+      flex-wrap: wrap;
+    }
   }
 
   a {
@@ -13,5 +17,34 @@ body {
     &:hover {
       text-decoration: none;
     }
+  }
+
+  p {
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: #fff;
+    text-transform: none;
+    padding-left: 35px;
+    padding-right: 15px;
+    margin: 15px 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    padding-bottom: 21px;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: 2.5px;
+    color: #d8d8d8;
   }
 }

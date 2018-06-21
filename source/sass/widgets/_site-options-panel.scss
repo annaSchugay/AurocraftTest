@@ -1,6 +1,8 @@
 .site-options-panel {
   display: flex;
-  padding: 55px 40px 52px 35px;
+  flex-shrink: 1;
+  flex-grow: 0;
+  padding: 55px 40px 50px 35px;
   align-items: center;
   justify-content: space-between;
   .slider-buttons {

@@ -1,4 +1,16 @@
 main {
+  margin-left: 327px;
+  height: 100vh;
+  flex-direction: column;
   flex-shrink: 1;
   flex-grow: 1;
+  overflow: -moz-scrollbars-none;
+  overflow-y: auto;
+  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: transparent;
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
 }

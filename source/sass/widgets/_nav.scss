@@ -14,8 +14,12 @@ nav {
     .label-menu {
       display: flex;
     }
-    &.active, &:hover {
+
+    &.active {
       font-weight: bold;
+    }
+
+    &.active, &:hover {
       color: rgba(182, 192, 212, 0.33);
       .label-menu {
         transform: translateX(0) translateY(-50%);
