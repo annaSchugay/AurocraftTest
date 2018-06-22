@@ -1,0 +1,23 @@
+aside {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 1;
+  flex-grow: 0;
+  width: 327px;
+  box-sizing: border-box;
+  padding: 55px 0;
+  background-color: #131216;
+  @include breakpoint(middle-small) {
+    position: static;
+    width: 100%;
+    order: 2;
+    height: auto;
+  }
+}

@@ -1,0 +1,24 @@
+.label-menu {
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: -100%;
+  margin-right: 36px;
+  transform: translateX(-100%) translateY(-50%);
+  align-items: center;
+  transition: all 0.1s;
+  &:before, &:after {
+    content: '';
+    display: none;
+  }
+  .line {
+    width: 64px;
+    border: solid 1px #cba570;
+  }
+  .circle {
+    width: 6px;
+    height: 6px;
+    border: solid 1px #cba570;
+    border-radius: 50%;
+  }
+}

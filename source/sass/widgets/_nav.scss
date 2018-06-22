@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 57px;
+  a {
+    position: relative;
+    margin-top: 12px;
+    font-size: 14px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2.3px;
+    color: #ffffff;
+    transition: all 0.1s;
+    .label-menu {
+      display: flex;
+    }
+
+    &.active {
+      font-weight: bold;
+    }
+
+    &.active, &:hover {
+      color: rgba(182, 192, 212, 0.33);
+      .label-menu {
+        transform: translateX(0) translateY(-50%);
+      }
+    }
+  }
+}

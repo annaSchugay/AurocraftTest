@@ -1,0 +1,26 @@
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 98px;
+  span {
+    &:first-child {
+      font-family: $font-family-bold;
+      font-size: 56px;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #fff;
+    }
+
+    &:last-child {
+      margin-top: 5px;
+      padding-left: 5px;
+      font-size: 14px;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 2.3px;
+      color: #cba570;
+    }
+  }
+}

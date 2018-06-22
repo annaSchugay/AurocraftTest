@@ -1,0 +1,40 @@
+footer {
+  margin-left: 40px;
+  address {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    & > * {
+      margin-top: 6px;
+    }
+
+    .phone-number {
+      font-size: 20px;
+      font-weight: bold;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 3.6px;
+      color: #fff;
+    }
+
+    .email {
+      font-size: 18px;
+      font-weight: bold;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 3.2px;
+      color: #cfa056;
+      text-transform: lowercase;
+    }
+
+    .location {
+      font-size: 12px;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 2px;
+      color: #fff;
+      padding: 0;
+      margin-top: 6px;
+    }
+  }
+}
