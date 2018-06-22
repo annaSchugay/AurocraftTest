@@ -1,9 +1,9 @@
 'use strict';
 
 //main width
-// if (screen.width > 980) {
-//   document.querySelector('main').style.width = (document.body.clientWidth - 327) + 'px';
-// }
+if (screen.width > 980) {
+  document.querySelector('main').style.width = document.body.clientWidth - 327 + 'px';
+}
 
 //slider
 
