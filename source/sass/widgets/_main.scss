@@ -13,4 +13,11 @@ main {
     width: 0;
     height: 0;
   }
+
+  @include breakpoint(middle-small) {
+    margin-left: 0;
+    width: 100%;
+    order: 1;
+
+  }
 }

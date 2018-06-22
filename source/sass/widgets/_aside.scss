@@ -14,4 +14,10 @@ aside {
   box-sizing: border-box;
   padding: 55px 0;
   background-color: #131216;
+  @include breakpoint(middle-small) {
+    position: static;
+    width: 100%;
+    order: 2;
+    height: auto;
+  }
 }

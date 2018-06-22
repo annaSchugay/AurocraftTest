@@ -17,4 +17,14 @@
       }
     }
   }
+
+  & > * {
+    @include breakpoint(middle-small) {
+      margin: 15px 0;
+    }
+  }
+
+  @include breakpoint(middle-small) {
+    flex-direction: column;
+  }
 }
